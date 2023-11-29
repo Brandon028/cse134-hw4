@@ -1,0 +1,54 @@
+form {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+}
+
+:root {
+    --background-light: white;
+    --background-2-light: grey;
+    --border-light: DarkCyan;
+    --text-light: black;
+
+    --background-dark: black;
+    --background-2-dark: DarkSlateGray;
+    --border-dark: cornsilk;
+    --text-dark: white;
+  }
+
+  
+label{
+    margin-top: 10px;
+}
+
+input:invalid{
+    border: 2px solid red;
+}
+
+input:invalid + * .error-message:before, textarea:invalid + * .error-message:before {
+    content: "Invalid input";
+    color: red;
+    font-size: .8em;
+}
+
+#co
+
+.error-message {
+    color: red;
+    font-size: 12px;
+}
+
+.horizontal-wrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+
+* {
+    background-color: var(--background-light);
+    border-color: var(--border-light);
+    color: var(--text-light);
+    transition: all 0.3s ease;
+}
+
+
